@@ -22,7 +22,7 @@ body
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-auto-rows: 150px 4fr;
-    width: 80%;
+    width: 70%;
     height: 70%;
     margin: auto;
     text-align: justify;
@@ -45,7 +45,7 @@ aside
 
 section
 {
-    background-color: #ecf0f1;
+    background-color: #EDEDED;
     color: #02011A;
 }
 
@@ -58,23 +58,18 @@ section
 
 
 
-
-
-
 /**DETAILS**/
 p
 {
     text-align: justify;
 }
 
-h1, header p
+h1
 {
-    text-align: center;
-}
-
-h1, h2
-{
-    font-family: 'Athelas', Georgia, serif;
+    font-size: 3.5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 h2
@@ -83,24 +78,29 @@ h2
     font-size: 1.5em;
 }
 
+h1, h2
+{
+    font-family: 'Athelas', Georgia, serif;
+}
+
+/**HEADER**/
+h1, header p
+{
+    text-align: center;
+}
+
+
+/**ASIDE**/
 #moi
 {
     border-radius:150px;
     width:240px;
     height:240px;
-    margin-top: 15px;
-    margin-left: 15px;
+    margin: 30px 15px 30px 15px;
     border: 1px solid #EEE;
     padding: 7px;
 }
 
-li
-{
-    list-style-type: none;
-}
-
-
-/**ASIDE**/
 aside img
 {
     font-size: 0.9em;
@@ -110,7 +110,7 @@ aside img
 aside h2, aside p
 {
     padding: 10px;
-    margin: 35px 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 aside h2
@@ -123,4 +123,22 @@ aside p
     font-size: 0.9em;
     line-height: 1.5em;
     margin-top: 0;
+}
+
+
+/**SECTION**/
+li
+{
+    list-style-type: none;
+}
+
+#success li
+{
+    list-style-image: url("assets/success.png");
+}
+
+section h2
+{
+    margin: 25px 600px 25px 25px;
+    border-bottom: 1px dashed #1b1b1b;
 }
