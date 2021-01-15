@@ -22,7 +22,7 @@ body
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-auto-rows: 150px 4fr;
-    width: 90%;
+    width: 80%;
     height: 70%;
     margin: auto;
     text-align: justify;
