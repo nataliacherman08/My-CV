@@ -1,11 +1,12 @@
-@font-face 
-{
-    font-family: "Athelas";
-    src:url("font/Athelas-Bold.woff") format("woff"),
-        url("font/Athelas-BoldItalic.woff") format("woff"),
-        url("font/Athelas-Italic.woff") format("woff"),
-        url("font/Athelas-Regular.woff") format("woff");
-   }
+@font-face {
+    font-family: 'colaborate-thinregular';
+    src: url('ColabThi-webfont.eot') format('embedded-opentype'),
+         url('ColabThi-webfont.woff') format('woff'),
+         url('ColabThi-webfont.ttf') format('truetype'),
+         url('ColabThi-webfont.svg#colaborate-thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body
 {
@@ -13,14 +14,14 @@ body
     padding: 0;
     background-color: #EEE;
     color: #02011A;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: 'colaborate-thinregular' , Tahoma, sans-serif;
     width: 100%;
 }
 
 #grid
 {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 400px 3fr;
     grid-auto-rows: 150px 4fr;
     width: 70%;
     height: 70%;
@@ -46,7 +47,7 @@ aside
 section
 {
     background-color: #EDEDED;
-    color: #02011A;
+    color: #02011a;
 }
 
 .content
@@ -78,10 +79,6 @@ h2
     font-size: 1.5em;
 }
 
-h1, h2
-{
-    font-family: 'Athelas', Georgia, serif;
-}
 
 /**HEADER**/
 h1, header p
@@ -120,7 +117,7 @@ aside h2
 
 aside p
 {
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.5em;
     margin-top: 0;
 }
@@ -129,16 +126,27 @@ aside p
 /**SECTION**/
 li
 {
-    list-style-type: none;
+    list-style-type: circle;
 }
 
-#success li
-{
-    list-style-image: url("assets/success.png");
-}
+
 
 section h2
 {
-    margin: 25px 600px 25px 25px;
+    margin: 50px 600px 25px 25px;
     border-bottom: 1px dashed #1b1b1b;
+    font-size: 2em;
+}
+
+.languages
+{
+    width: 600px;
+    margin-left: 80px;
+}
+
+.computing
+{
+    width: 400px;
+    margin-left: 80px;
+    height: 220px;
 }
