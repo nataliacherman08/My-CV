@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'Archistico';
-    src: url('font/Archistico_Bold-webfont.eot') format('embedded-opentype'),
-         url('font/Archistico_Bold-webfont.svg') format('svg'),
-         url('font/Archistico_Bold-webfont.ttf') format('truetype'),
-         url('font/Archistico_Bold-webfont.woff') format('woff');
+    font-family: 'Barlow';
+    src: url('font/Barlow-Light-webfont.eot') format('embedded-opentype'),
+         url('font/Barlow-Light-webfont.svg') format('svg'),
+         url('font/Barlow-Light-webfont.ttf') format('truetype'),
+         url('font/Barlow-Light-webfont.woff') format('woff');
 }
 
 body
@@ -12,7 +12,7 @@ body
     padding: 0;
     background-color: #000;
     color: #02011A;
-    font-family: sans-serif;
+    font-family: 'Barlow';
     width: 100%;
 }
 
@@ -63,17 +63,16 @@ p
 
 h1
 {
-    font-size: 3.5em;
+    font-size: 3.2em;
     padding-bottom: 0;
     margin-bottom: 0;
-    margin-top: 5px;
-    font-family: 'Archistico';
+    margin-top: 20px;
 }
 
 h2
 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 
@@ -88,11 +87,10 @@ h1, header p
 #moi
 {
     border-radius: 200px;
-    width: 300px;
-    height: 300px;
-    margin: 50px 100px 30px 80px;
-    border: 1px solid #EEE;
-    padding: 7px;
+    width: 270px;
+    height: 270px;
+    margin: 40px 100px 30px 90px;
+    border: 2px solid #EEE;
 }
 
 aside img
@@ -104,7 +102,13 @@ aside img
 aside h2, aside p
 {
     padding: 10px;
-    margin: 40px 0 0 0;
+    margin: 85px 0 0 0;
+}
+
+.webdev
+{
+    text-align: center;
+    padding-top: 10px;
 }
 
 aside h2
@@ -114,7 +118,7 @@ aside h2
 
 aside p
 {
-    font-size: 1em;
+    font-size: 1.4em;
     line-height: 1.5em;
     margin-top: 0;
 }
@@ -123,7 +127,7 @@ aside p
 /**SECTION**/
 li
 {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 
@@ -135,15 +139,15 @@ section h2
     font-size: 2em;
 }
 
+.computing
+{
+    width: 400px;
+    margin-left: 15px;
+    height: 220px;
+}
+
 .languages
 {
     width: 600px;
     margin-left: 80px;
-}
-
-.computing
-{
-    width: 400px;
-    margin-left: 80px;
-    height: 220px;
 }
