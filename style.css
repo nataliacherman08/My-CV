@@ -1,29 +1,27 @@
 @font-face {
-    font-family: 'colaborate-thinregular';
-    src: url('ColabThi-webfont.eot') format('embedded-opentype'),
-         url('ColabThi-webfont.woff') format('woff'),
-         url('ColabThi-webfont.ttf') format('truetype'),
-         url('ColabThi-webfont.svg#colaborate-thinregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Archistico';
+    src: url('font/Archistico_Bold-webfont.eot') format('embedded-opentype'),
+         url('font/Archistico_Bold-webfont.svg') format('svg'),
+         url('font/Archistico_Bold-webfont.ttf') format('truetype'),
+         url('font/Archistico_Bold-webfont.woff') format('woff');
 }
 
 body
 {
     margin: 0;
     padding: 0;
-    background-color: #EEE;
+    background-color: #000;
     color: #02011A;
-    font-family: 'colaborate-thinregular' , Tahoma, sans-serif;
+    font-family: sans-serif;
     width: 100%;
 }
 
 #grid
 {
     display: grid;
-    grid-template-columns: 600px 3fr;
+    grid-template-columns: 500px 3fr;
     grid-auto-rows: 100px 4fr;
-    width: 100%;
+    width: 70%;
     height: 60%;
     margin: auto;
     text-align: justify;
@@ -69,6 +67,7 @@ h1
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 5px;
+    font-family: 'Archistico';
 }
 
 h2
@@ -91,7 +90,7 @@ h1, header p
     border-radius: 200px;
     width: 300px;
     height: 300px;
-    margin: 30px 100px 30px 100px;
+    margin: 50px 100px 30px 80px;
     border: 1px solid #EEE;
     padding: 7px;
 }
