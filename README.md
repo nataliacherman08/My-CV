@@ -1,6 +1,6 @@
 # My-CV
 ## Content
-In this repository, I made my CV as a website with the grid system of CSS.
+In this repository called *My Cv*, I made my CV using the CSS Grid system to visually structure my page.
 
 ## Link
 [My CV](https://nataliacherman08.github.io/My-CV/)
@@ -10,4 +10,4 @@ In this repository, I made my CV as a website with the grid system of CSS.
 * [CSS rules](https://www.w3schools.com/css/default.asp)
 * [Grids tutorial](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-![Work](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
+![Multipass](https://media.giphy.com/media/uIGHPjEfdc0Ni/giphy.gif)
