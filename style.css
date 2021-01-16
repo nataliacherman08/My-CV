@@ -21,7 +21,7 @@ body
     display: grid;
     grid-template-columns: 500px 3fr;
     grid-auto-rows: 100px 4fr;
-    width: 70%;
+    width: 100%;
     height: 60%;
     margin: auto;
     text-align: justify;
