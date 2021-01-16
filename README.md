@@ -3,7 +3,7 @@
 In this repository, I made my CV as a website with the grid system of CSS.
 
 ## Link
-[CV](https://nataliacherman08.github.io/My-CV/)
+[My CV](https://nataliacherman08.github.io/My-CV/)
 
 ## Resources
 * [Grid Garden](http://cssgridgarden.com/#fr)
