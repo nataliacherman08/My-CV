@@ -64,9 +64,6 @@ p
 h1
 {
     font-size: 3.2em;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 20px;
 }
 
 h2
@@ -89,20 +86,8 @@ h1
     border-radius: 200px;
     width: 270px;
     height: 270px;
-    margin: 40px 40px 5px 45px;
+    margin: 20px 40px 5px 45px;
     border: 2px solid #EEE;
-}
-
-aside img
-{
-    font-size: 0.9em;
-    font-weight: bold;
-}
-
-aside h2, aside p
-{
-    padding: 10px;
-    margin: 85px 0 0 0;
 }
 
 .webdev
@@ -111,37 +96,51 @@ aside h2, aside p
     padding-top: 10px;
 }
 
+
 aside h2
 {
     text-align: center;
+    padding: 10px;
+    margin: 85px 0 0 0;
 }
 
 aside p
 {
     font-size: 1.4em;
     line-height: 1.5em;
-    margin-top: 0;
+    padding: 10px;
 }
 
 
 /**SECTION**/
-li
-{
-    list-style-type: none;
-}
-
-
 
 section h2
 {
     margin: 50px 600px 25px 25px;
     border-bottom: 1px dashed #1b1b1b;
-    font-size: 2em;
+    font-size: 2.3em;
 }
 
+.margin
+{
+    font-size: 1.2em;
+    margin: 50px 0 100px 80px;
+}
+
+.computing
+{
+    width: 700px;
+    margin: 50px 0 0 70px;
+}
+
+.softskills
+{
+    width: 800px;
+    margin: 50px 0 100px 70px;
+}
 
 .languages
 {
-    width: 600px;
-    margin-left: 80px;
+    width: 500px;
+    margin: 50px 0 200px 80px;
 }
