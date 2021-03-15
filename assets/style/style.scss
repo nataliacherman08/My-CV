@@ -55,6 +55,12 @@ h2
     width: 300px;
 }
 
+aside
+{
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+
 //Social Networks
 .socialNetworks
 {
