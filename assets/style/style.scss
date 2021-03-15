@@ -23,6 +23,7 @@ header
 section
 {
     grid-column: 3/3;
+    margin-left: 700px;
 }
 
 .socialNetwork
@@ -35,7 +36,7 @@ h1
     writing-mode: vertical-rl;
     transform:scale(-1);
     font: {
-        size: 5em;
+        size: 4em;
     }
     margin: 0;
 }
@@ -51,13 +52,13 @@ h2
 
 .nat 
 {
-    width: 200px;
+    width: 300px;
 }
 
 //Social Networks
 .socialNetworks
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style-type: none;
 }
