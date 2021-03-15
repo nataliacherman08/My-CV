@@ -6,8 +6,8 @@ body {
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 4fr;
-      grid-template-columns: 2fr 4fr;
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
 }
 
 header {
