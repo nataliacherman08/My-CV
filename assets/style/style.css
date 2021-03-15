@@ -28,6 +28,11 @@ header {
           align-items: center;
 }
 
+section {
+  -ms-grid-column: 3;
+  grid-column: 3/3;
+}
+
 .socialNetwork {
   width: 30px;
 }

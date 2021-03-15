@@ -20,6 +20,11 @@ header
     align-items: center;
 }
 
+section
+{
+    grid-column: 3/3;
+}
+
 .socialNetwork
 {
     width: 30px;
