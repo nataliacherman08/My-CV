@@ -1,5 +1,5 @@
 body {
-  margin: 2% 9%;
+  margin: 2% 5%;
   padding: 0;
 }
 
@@ -8,7 +8,6 @@ body {
   display: grid;
   -ms-grid-columns: 6fr;
       grid-template-columns: 6fr;
-  grid-row-gap: 0.2em;
 }
 
 header {
@@ -28,10 +27,29 @@ header {
           align-items: center;
 }
 
-section {
-  -ms-grid-column: 3;
-  grid-column: 3/3;
-  margin-left: 700px;
+.title {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1/5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+figure {
+  width: 400px;
+}
+
+.nat {
+  width: 250px;
+  padding: 20px;
 }
 
 .socialNetwork {
@@ -55,11 +73,12 @@ h2 {
   -webkit-transform: scale(-1);
           transform: scale(-1);
   font-size: 2em;
-  margin: 0;
+  margin: 0%;
 }
 
-.nat {
-  width: 300px;
+.line {
+  border-left: 1px solid black;
+  height: 500px;
 }
 
 aside {
@@ -68,6 +87,7 @@ aside {
   -ms-grid-row: 2;
   -ms-grid-row-span: 3;
   grid-row: 2 / 5;
+  background-color: red;
 }
 
 .socialNetworks {

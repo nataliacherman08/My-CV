@@ -1,6 +1,6 @@
 body
 {
-    margin: 2% 9%;
+    margin: 2% 5%;
     padding: 0;
 }
 
@@ -8,7 +8,7 @@ body
 {
     display: grid;
     grid-template-columns: 6fr;
-    grid-row-gap: 0.2em;
+    //grid-row-gap: 0.2em;
 }
 
 header
@@ -20,10 +20,25 @@ header
     align-items: center;
 }
 
-section
+.title
 {
-    grid-column: 3/3;
-    margin-left: 700px;
+    grid-row: 1/5;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+figure
+{
+    width: 400px;
+}
+
+//My pic
+.nat 
+{
+    width: 250px;
+    padding: 20px;
 }
 
 .socialNetwork
@@ -47,18 +62,20 @@ h2
     font: {
         size: 2em;
     }
-    margin: 0;
+    margin: 0%;
 }
 
-.nat 
+.line
 {
-    width: 300px;
+    border-left: 1px solid black;
+    height: 500px;
 }
 
 aside
 {
     grid-column: 1;
     grid-row: 2 / 5;
+    background-color: red;
 }
 
 //Social Networks
