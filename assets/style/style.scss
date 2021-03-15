@@ -7,22 +7,43 @@ body
 .grid
 {
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    grid-column-gap: 0.4em;
+    grid-template-columns: 1fr 6fr;
     grid-row-gap: 0.2em;
 }
 
 header
 {
     background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-section
+.socialNetwork
 {
-    background-color: antiquewhite;
+    width: 30px;
 }
 
-footer
+h1
 {
-    background-color: aquamarine;
+    writing-mode: vertical-rl;
+    transform:scale(-1);
+    font: {
+        size: 5em;
+    }
+    margin: 0;
+}
+h2
+{
+    writing-mode: vertical-rl;
+    transform:scale(-1);
+    font: {
+        size: 2em;
+    }
+    margin: 0;
+}
+
+.nat 
+{
+    width: 200px;
 }

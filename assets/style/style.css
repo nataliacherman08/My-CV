@@ -6,21 +6,50 @@ body {
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 3fr 2fr;
-      grid-template-columns: 3fr 2fr;
-  grid-column-gap: 0.4em;
+  -ms-grid-columns: 1fr 6fr;
+      grid-template-columns: 1fr 6fr;
   grid-row-gap: 0.2em;
 }
 
 header {
   background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-section {
-  background-color: antiquewhite;
+.socialNetwork {
+  width: 30px;
 }
 
-footer {
-  background-color: aquamarine;
+h1 {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: scale(-1);
+          transform: scale(-1);
+  font-size: 5em;
+  margin: 0;
+}
+
+h2 {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: scale(-1);
+          transform: scale(-1);
+  font-size: 2em;
+  margin: 0;
+}
+
+.nat {
+  width: 200px;
 }
 /*# sourceMappingURL=style.css.map */
