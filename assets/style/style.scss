@@ -1,58 +1,25 @@
-body
-{
-    margin: 2% 5%;
-    padding: 0;
-}
-
-.container
+/*.resume
 {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    //grid-row-gap: 0.2em;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
-
-header
-{
-    grid-column: 1/3;
-    background-color: red;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+*/
+.resume {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
+    grid-template-areas: 
+    "header header header"
+    "about experience experience"
+    "about experience experience";
 }
-
+//NAME
 .title
 {
-    grid-row: 1/5;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-}
-
-aside
-{
-    grid-column: 1;
-}
-
-footer
-{
-    grid-column: 2/3;
-}
-
-figure
-{
-    width: 400px;
-}
-
-//My pic
-.nat 
-{
-    width: 250px;
-    padding: 20px;
-}
-
-.socialNetwork
-{
-    width: 30px;
 }
 
 h1
@@ -63,11 +30,14 @@ h1
         size: 3em;
     }
     margin: 0;
+    padding: 0;
 }
 
-.cherman
+.lastname
 {
-    font-size: 1.5em;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
 }
 
 h2
@@ -75,23 +45,20 @@ h2
     writing-mode: vertical-rl;
     transform:scale(-1);
     font: {
-        size: 2em;
+        size: 1.5em;
     }
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
-.line
+
+
+//PHOTO
+.nat 
 {
-    border-left: 1px solid black;
-    height: 500px;
+    width: 200px;
 }
 
-aside
-{
-    grid-column: 1;
-    grid-row: 2 / 5;
-    background-color: red;
-}
 
 //Social Networks
 .socialNetworks
@@ -99,4 +66,9 @@ aside
     display: flex;
     flex-direction: row;
     list-style-type: none;
+}
+
+.socialNetwork
+{
+    width: 30px;
 }
