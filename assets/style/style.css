@@ -4,15 +4,58 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
-*/
+
 .resume {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
+    grid-template-areas: 
+    "header header header"
+    "about experience experience"
+    "about experience experience";
+}
+
+
+
+
+//PHOTO
+.nat 
+{
+    width: 200px;
+}
+
+
+//Social Networks
+.socialNetworks
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.socialNetwork
+{
+    width: 30px;
+}*/
+.container {
   display: -ms-grid;
   display: grid;
   width: 100%;
-  height: 100vh;
-  -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
-      grid-template-areas: "header header header" "about experience experience" "about experience experience";
+  height: 100%;
+      grid-template-areas: "head head" "section  main" "section  foot";
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+  -ms-grid-rows: 1fr 4fr 1fr;
+      grid-template-rows: 1fr 4fr 1fr;
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: head;
+  background-color: #8ca0ff;
 }
 
 .title {
@@ -53,22 +96,22 @@ h2 {
   margin: 0;
 }
 
-.nat {
-  width: 200px;
+.about {
+  grid-area: nav;
+  background-color: #ffa08c;
 }
 
-.socialNetworks {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  list-style-type: none;
+.container > main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: main;
+  background-color: #ffff64;
 }
 
-.socialNetwork {
-  width: 30px;
+footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: foot;
+  background-color: #8cffa0;
 }
 /*# sourceMappingURL=style.css.map */
