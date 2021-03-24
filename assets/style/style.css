@@ -36,22 +36,55 @@
   border: 1px black solid;
 }
 
-.socialnetwork {
-  width: 15%;
-}
-
-li {
+.medias {
   list-style-type: none;
-}
-
-body {
+  position: absolute;
+  right: 3.3%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bulles {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+  background: #f1f1f1;
+  cursor: pointer;
+  position: relative;
+}
+
+.logo-medias {
+  width: 30px;
+  height: 30px;
 }
 
 .nat {

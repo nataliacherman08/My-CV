@@ -31,22 +31,42 @@
 }
 
 //Social Networks=============================================
-.socialnetwork
-{
-    width: 15%;
-}
-li
+.medias
 {
     list-style-type: none;
-}
-
-//Body=====================================================
-body
-{
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.bulles
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-medias
+{
+    width: 30px;
+    height: 30px;
+}
+
+//Photo==========================================================
 .nat
 {
     width: 250px;
