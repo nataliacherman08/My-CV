@@ -25,7 +25,7 @@ body {
         "photo  about"
         "contact  work"
         "contact  skills"
-        "community  languages";
+        "interests  languages";
 }
 
 .grid-area {
@@ -178,7 +178,7 @@ h4
 
 .languagesskills {
     width: 450px;
-    margin-left: 120px;
+    margin: 0 0 50px 120px;
 }
 
 //Skills==========================================
@@ -186,6 +186,7 @@ h4
     grid-area: skills;
 }
 
-.community {
-    grid-area: community;
+//Interests========================================
+.interests {
+    grid-area: interests;
 }

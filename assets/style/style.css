@@ -33,7 +33,7 @@ body {
       grid-template-rows: 1fr 3fr 2fr 2fr;
   -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
           box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
-      grid-template-areas: "photo  about" "contact  work" "contact  skills" "community  languages";
+      grid-template-areas: "photo  about" "contact  work" "contact  skills" "interests  languages";
 }
 
 .grid-area {
@@ -221,7 +221,7 @@ h4 {
 
 .languagesskills {
   width: 450px;
-  margin-left: 120px;
+  margin: 0 0 50px 120px;
 }
 
 .skills {
@@ -230,9 +230,9 @@ h4 {
   grid-area: skills;
 }
 
-.community {
+.interests {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
-  grid-area: community;
+  grid-area: interests;
 }
 /*# sourceMappingURL=style.css.map */
