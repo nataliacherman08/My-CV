@@ -26,15 +26,15 @@ body {
   display: grid;
   width: 140vh;
   /* hardcoded purely for codepen example */
-  height: 150vh;
+  height: 180vh;
   /* hardcoded purely for codepen example */
   -ms-grid-columns: 1fr 2fr;
       grid-template-columns: 1fr 2fr;
-  -ms-grid-rows: 1fr 3fr 2fr 1fr;
-      grid-template-rows: 1fr 3fr 2fr 1fr;
+  -ms-grid-rows: 1fr 3fr 2fr 2fr;
+      grid-template-rows: 1fr 3fr 2fr 2fr;
   -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
           box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
-      grid-template-areas: "photo  about" "contact  work" "contact  education" "community  skills";
+      grid-template-areas: "photo  about" "contact  work" "contact  skills" "community  languages";
 }
 
 .grid-area {
@@ -214,16 +214,21 @@ h4 {
           transform: scale(1.2);
 }
 
-.skills {
+.languages {
   -ms-grid-row: 4;
   -ms-grid-column: 2;
-  grid-area: skills;
+  grid-area: languages;
 }
 
-.education {
+.languagesskills {
+  width: 500px;
+  margin-left: 90px;
+}
+
+.skills {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
-  grid-area: education;
+  grid-area: skills;
 }
 
 .community {
