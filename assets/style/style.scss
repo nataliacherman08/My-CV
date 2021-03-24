@@ -112,6 +112,16 @@ h3 {
     grid-area: contact;
 }
 
+.pictos {
+    display: flex;
+    flex-direction: column;
+}
+
+.picto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .mail {
     width: 30px;
 }
