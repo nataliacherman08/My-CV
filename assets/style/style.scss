@@ -14,41 +14,46 @@
     /* hardcoded purely for codepen example */
     height: 120vh;
     /* hardcoded purely for codepen example */
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows   : 1fr 1fr 1fr 1fr;
     box-shadow           : 0 5px 9px 0 rgba(0, 0, 0, 0.35);
-    grid-gap             : 5px;
     grid-template-areas  :
         "photo  name"
-        "work  about"
-        "work  education"
+        "contact  work"
+        "contact  education"
         "community  skills";
+}
+
+.grid-area 
+{
+    padding: 1em 1em 1em 1em;
+    border : 1px black solid;
 }
 
 .nat
 {
     width: 250px;
+    margin-left: 10%;
 }
 
-.grid-area {
-    padding: 1em 1em 1em 1em;
-    border : 1px black solid;
-}
 
 .name {
     grid-area: name;
 }
 
-.photo {
+.photo 
+{
     grid-area: photo;
 }
 
-.about {
-    grid-area: about;
+.work 
+{
+    grid-area: work;
 }
 
-.work {
-    grid-area: work;
+.contact 
+{
+    grid-area: contact;
 }
 
 .skills {
