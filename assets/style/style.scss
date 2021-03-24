@@ -15,12 +15,12 @@ body {
 
 .resume {
     display: grid;
-    width: 150vh;
+    width: 140vh;
     /* hardcoded purely for codepen example */
-    height: 120vh;
+    height: 150vh;
     /* hardcoded purely for codepen example */
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows   : 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows   : 1fr 3fr 2fr 1fr;
     box-shadow           : 0 5px 9px 0 rgba(0, 0, 0, 0.35);
     grid-template-areas  :
         "photo  about"
@@ -44,7 +44,8 @@ h1 {
 }
 
 h3 {
-    margin-bottom: 60px;
+    margin: 10px 0 60px 0;
+    padding: 0;
 }
 
 //Social Networks=============================================
@@ -106,18 +107,32 @@ h3 {
 .work 
 {
     grid-area: work;
-    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.works
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4
+{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 //------------------
-img {
+.miniature {
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }
-img:hover {
+.miniature:hover {
     transform:scale(1.2);
 }
 
