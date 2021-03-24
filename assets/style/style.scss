@@ -96,17 +96,34 @@ h3 {
 }
 
 
-//Contact=========================================================================
+//Contact=======================================================
 .contact 
 {
     grid-area: contact;
 }
 
-
+//Works========================================================
 .work 
 {
     grid-area: work;
+    padding-top: 60px;
 }
+
+//------------------
+img {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+img:hover {
+    transform:scale(1.2);
+}
+
+
+
+
 
 .skills {
     grid-area: skills;

@@ -132,6 +132,17 @@ h3 {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: work;
+  padding-top: 60px;
+}
+
+img {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .skills {
