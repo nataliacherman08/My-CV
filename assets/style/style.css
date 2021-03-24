@@ -36,6 +36,24 @@
   border: 1px black solid;
 }
 
+.socialnetwork {
+  width: 15%;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .nat {
   width: 250px;
   margin-left: 3%;
@@ -58,14 +76,6 @@
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: contact;
-}
-
-.socialnetwork {
-  width: 15%;
-}
-
-li {
-  list-style-type: none;
 }
 
 .work {

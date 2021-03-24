@@ -30,6 +30,23 @@
     border : 1px black solid;
 }
 
+//Social Networks=============================================
+.socialnetwork
+{
+    width: 15%;
+}
+li
+{
+    list-style-type: none;
+}
+
+//Body=====================================================
+body
+{
+    display: flex;
+    flex-direction: row;
+}
+
 .nat
 {
     width: 250px;
@@ -52,14 +69,7 @@
 {
     grid-area: contact;
 }
-.socialnetwork
-{
-    width: 15%;
-}
-li
-{
-    list-style-type: none;
-}
+
 
 .work 
 {
