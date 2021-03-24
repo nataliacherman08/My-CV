@@ -18,7 +18,7 @@
     grid-template-rows   : 1fr 1fr 1fr 1fr;
     box-shadow           : 0 5px 9px 0 rgba(0, 0, 0, 0.35);
     grid-template-areas  :
-        "photo  name"
+        "photo  about"
         "contact  work"
         "contact  education"
         "community  skills";
@@ -33,12 +33,13 @@
 .nat
 {
     width: 250px;
-    margin-left: 10%;
+    margin-left: 3%;
 }
 
 
-.name {
-    grid-area: name;
+.about 
+{
+    grid-area: about;
 }
 
 .photo 
