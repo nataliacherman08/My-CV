@@ -29,7 +29,7 @@
   -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
           box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
   grid-gap: 5px;
-      grid-template-areas: "name  photo" "work  about" "work  education" "community  skills";
+      grid-template-areas: "photo  name" "work  about" "work  education" "community  skills";
 }
 
 .nat {
@@ -43,13 +43,13 @@
 
 .name {
   -ms-grid-row: 1;
-  -ms-grid-column: 1;
+  -ms-grid-column: 2;
   grid-area: name;
 }
 
 .photo {
   -ms-grid-row: 1;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   grid-area: photo;
 }
 
