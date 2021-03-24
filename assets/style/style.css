@@ -1,64 +1,77 @@
-/*.resume
-{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-}
-
 .resume {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
-    grid-template-areas: 
-    "header header header"
-    "about experience experience"
-    "about experience experience";
-}
-
-
-
-
-//PHOTO
-.nat 
-{
-    width: 200px;
-}
-
-
-//Social Networks
-.socialNetworks
-{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-}
-
-.socialNetwork
-{
-    width: 30px;
-}*/
-.container {
   display: -ms-grid;
   display: grid;
-  width: 100%;
-  height: 100%;
-      grid-template-areas: "head head" "section  main" "section  foot";
-  -ms-grid-columns: 1fr 3fr;
-      grid-template-columns: 1fr 3fr;
-  -ms-grid-rows: 1fr 4fr 1fr;
-      grid-template-rows: 1fr 4fr 1fr;
+  width: 1500px;
+  /* hardcoded purely for codepen example */
+  height: 120vh;
+  /* hardcoded purely for codepen example */
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+  -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
+          box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
+  grid-gap: 5px;
+      grid-template-areas: "name  photo" "work  about" "work  education" "community  skills";
 }
 
-header {
+.circle {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.grid-area {
+  padding: 1em 1em 1em 1em;
+  border: 1px black solid;
+}
+
+.name {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: head;
-  background-color: #8ca0ff;
+  grid-area: name;
 }
 
-.title {
+.photo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: photo;
+}
+
+.about {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: about;
+}
+
+.work {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: work;
+}
+
+.skills {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: skills;
+}
+
+.education {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: education;
+}
+
+.community {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: community;
+}
+
+.wrapper {
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,52 +79,8 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}
-
-h1 {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  -webkit-transform: scale(-1);
-          transform: scale(-1);
-  font-size: 3em;
-  margin: 0;
-  padding: 0;
-}
-
-.lastname {
-  font-size: 2em;
-  margin: 0;
-  padding: 0;
-}
-
-h2 {
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  -webkit-transform: scale(-1);
-          transform: scale(-1);
-  font-size: 1.5em;
-  padding: 0;
-  margin: 0;
-}
-
-.about {
-  grid-area: nav;
-  background-color: #ffa08c;
-}
-
-.container > main {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: main;
-  background-color: #ffff64;
-}
-
-footer {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
-  grid-area: foot;
-  background-color: #8cffa0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=style.css.map */
