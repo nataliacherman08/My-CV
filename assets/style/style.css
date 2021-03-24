@@ -57,7 +57,7 @@ h3 {
   list-style-type: none;
   position: absolute;
   right: 3.3%;
-  top: 70%;
+  top: 80%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   display: -webkit-box;
@@ -111,8 +111,8 @@ h3 {
 }
 
 .nat {
-  width: 250px;
-  margin-left: 3%;
+  width: 220px;
+  margin-left: 6%;
 }
 
 .about {
