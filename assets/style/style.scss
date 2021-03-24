@@ -16,7 +16,7 @@ body {
 .resume {
     display: grid;
     width: 170vh;
-    height: 180vh;
+    height: 200vh;
     margin-bottom: 5%;
     grid-template-columns: 1fr 3fr;
     grid-template-rows   : 1fr 3fr 2fr 2fr;
@@ -24,8 +24,8 @@ body {
     grid-template-areas  :
         "photo  about"
         "contact  work"
-        "contact  skills"
-        "languages  interests";
+        "contact  education"
+        "languages  skills";
 }
 
 .grid-area {
@@ -131,7 +131,7 @@ h3 {
     width: 30px;
 }
 
-.scolarity {
+.hobbies {
     margin-top: 100px;
 }
 
@@ -173,14 +173,14 @@ h4 {
 
 
 
-//Interests=======================================
-.interests {
-    grid-area: interests;
-}
-
-//Skills==========================================
+//Skills=======================================
 .skills {
     grid-area: skills;
+}
+
+//Education==========================================
+.education {
+    grid-area: education;
 }
 
 //Languages========================================

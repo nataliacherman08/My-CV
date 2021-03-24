@@ -25,7 +25,7 @@ body {
   display: -ms-grid;
   display: grid;
   width: 170vh;
-  height: 180vh;
+  height: 200vh;
   margin-bottom: 5%;
   -ms-grid-columns: 1fr 3fr;
       grid-template-columns: 1fr 3fr;
@@ -33,7 +33,7 @@ body {
       grid-template-rows: 1fr 3fr 2fr 2fr;
   -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
           box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
-      grid-template-areas: "photo  about" "contact  work" "contact  skills" "languages  interests";
+      grid-template-areas: "photo  about" "contact  work" "contact  education" "languages  skills";
 }
 
 .grid-area {
@@ -168,7 +168,7 @@ h3 {
   width: 30px;
 }
 
-.scolarity {
+.hobbies {
   margin-top: 100px;
 }
 
@@ -218,16 +218,16 @@ h4 {
           transform: scale(1.2);
 }
 
-.interests {
+.skills {
   -ms-grid-row: 4;
   -ms-grid-column: 2;
-  grid-area: interests;
+  grid-area: skills;
 }
 
-.skills {
+.education {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
-  grid-area: skills;
+  grid-area: education;
 }
 
 .languages {
