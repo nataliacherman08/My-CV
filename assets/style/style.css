@@ -24,11 +24,11 @@ body {
 .resume {
   display: -ms-grid;
   display: grid;
-  width: 140vh;
+  width: 180vh;
   height: 180vh;
   margin-bottom: 5%;
-  -ms-grid-columns: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
   -ms-grid-rows: 1fr 3fr 2fr 2fr;
       grid-template-rows: 1fr 3fr 2fr 2fr;
   -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
@@ -61,7 +61,7 @@ h3 {
 .medias {
   list-style-type: none;
   position: absolute;
-  right: 3.3%;
+  right: 1.3%;
   top: 80%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -196,6 +196,8 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 h4 {
