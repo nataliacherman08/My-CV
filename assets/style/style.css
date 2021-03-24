@@ -24,7 +24,7 @@ body {
 .resume {
   display: -ms-grid;
   display: grid;
-  width: 180vh;
+  width: 170vh;
   height: 180vh;
   margin-bottom: 5%;
   -ms-grid-columns: 1fr 3fr;
@@ -33,7 +33,7 @@ body {
       grid-template-rows: 1fr 3fr 2fr 2fr;
   -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
           box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
-      grid-template-areas: "photo  about" "contact  work" "contact  skills" "interests  languages";
+      grid-template-areas: "photo  about" "contact  work" "contact  skills" "languages  interests";
 }
 
 .grid-area {
@@ -176,6 +176,9 @@ h3 {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: work;
+}
+
+.projects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,15 +218,10 @@ h4 {
           transform: scale(1.2);
 }
 
-.languages {
+.interests {
   -ms-grid-row: 4;
   -ms-grid-column: 2;
-  grid-area: languages;
-}
-
-.languagesskills {
-  width: 450px;
-  margin: 0 0 50px 120px;
+  grid-area: interests;
 }
 
 .skills {
@@ -232,9 +230,14 @@ h4 {
   grid-area: skills;
 }
 
-.interests {
+.languages {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
-  grid-area: interests;
+  grid-area: languages;
+}
+
+.languagesskills {
+  width: 250px;
+  margin: 0 0 50px 30px;
 }
 /*# sourceMappingURL=style.css.map */
