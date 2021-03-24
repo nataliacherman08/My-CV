@@ -25,9 +25,8 @@ body {
   display: -ms-grid;
   display: grid;
   width: 140vh;
-  /* hardcoded purely for codepen example */
   height: 180vh;
-  /* hardcoded purely for codepen example */
+  margin-bottom: 5%;
   -ms-grid-columns: 1fr 2fr;
       grid-template-columns: 1fr 2fr;
   -ms-grid-rows: 1fr 3fr 2fr 2fr;
@@ -222,7 +221,7 @@ h4 {
 
 .languagesskills {
   width: 500px;
-  margin-left: 90px;
+  margin-left: 100px;
 }
 
 .skills {
