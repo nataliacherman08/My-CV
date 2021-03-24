@@ -1,5 +1,11 @@
-.wrapper 
-{
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.wrapper {
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -7,8 +13,7 @@
     justify-content: space-evenly;
 }
 
-.resume
-{
+.resume {
     display: grid;
     width: 150vh;
     /* hardcoded purely for codepen example */
@@ -24,10 +29,18 @@
         "community  skills";
 }
 
-.grid-area 
-{
+.grid-area {
     padding: 1em 1em 1em 1em;
     border : 1px black solid;
+}
+
+h1 {
+    font: {
+        family: "Abril Fatface", serif;
+        weight: 100;
+        size: 2em;
+    }
+    margin-bottom: 2em;
 }
 
 //Social Networks=============================================
@@ -64,22 +77,20 @@
 }
 
 //Photo==========================================================
-.nat
-{
+.photo {
+    grid-area: photo;
+}
+
+.nat {
     width: 250px;
     margin-left: 3%;
 }
 
-
-.about 
-{
+//What about me ?==============================================
+.about {
     grid-area: about;
 }
 
-.photo 
-{
-    grid-area: photo;
-}
 
 //Contact=========================================================================
 .contact 

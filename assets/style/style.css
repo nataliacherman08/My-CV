@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+}
+
 .wrapper {
   padding: 0;
   display: -webkit-box;
@@ -34,6 +40,13 @@
 .grid-area {
   padding: 1em 1em 1em 1em;
   border: 1px black solid;
+}
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 100;
+  font-size: 2em;
+  margin-bottom: 2em;
 }
 
 .medias {
@@ -87,6 +100,12 @@
   height: 30px;
 }
 
+.photo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: photo;
+}
+
 .nat {
   width: 250px;
   margin-left: 3%;
@@ -96,12 +115,6 @@
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: about;
-}
-
-.photo {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: photo;
 }
 
 .contact {
