@@ -98,13 +98,21 @@ h3 {
 
 
 //Contact=======================================================
-.contact 
-{
+.contact {
     grid-area: contact;
 }
 
-.scolarity
-{
+.mail {
+    width: 30px;
+}
+.phone {
+    width: 20px;
+}
+.world {
+    width: 30px;
+}
+
+.scolarity {
     margin-top: 100px;
 }
 

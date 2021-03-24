@@ -129,6 +129,18 @@ h3 {
   grid-area: contact;
 }
 
+.mail {
+  width: 30px;
+}
+
+.phone {
+  width: 20px;
+}
+
+.world {
+  width: 30px;
+}
+
 .scolarity {
   margin-top: 100px;
 }
