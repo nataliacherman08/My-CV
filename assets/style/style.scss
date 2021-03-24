@@ -1,6 +1,6 @@
 .resume {
     display: grid;
-    width  : 1500px;
+    width  : 150vh;
     /* hardcoded purely for codepen example */
     height: 120vh;
     /* hardcoded purely for codepen example */
@@ -15,11 +15,9 @@
         "community  skills";
 }
 
-.circle {
-    border       : 1px solid black;
-    height       : 200px;
-    width        : 200px;
-    border-radius: 50%;
+.nat
+{
+    width: 250px;
 }
 
 .grid-area {
@@ -55,9 +53,11 @@
     grid-area: community;
 }
 
-.wrapper {
-    padding        : 0;
-    display        : flex;
-    flex-direction : row;
+.wrapper 
+{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
 }
