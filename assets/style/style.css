@@ -53,17 +53,25 @@
   grid-area: photo;
 }
 
-.work {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: work;
-}
-
 .contact {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: contact;
+}
+
+.socialnetwork {
+  width: 15%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.work {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: work;
 }
 
 .skills {

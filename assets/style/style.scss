@@ -47,14 +47,23 @@
     grid-area: photo;
 }
 
-.work 
-{
-    grid-area: work;
-}
-
+//Contact=========================================================================
 .contact 
 {
     grid-area: contact;
+}
+.socialnetwork
+{
+    width: 15%;
+}
+li
+{
+    list-style-type: none;
+}
+
+.work 
+{
+    grid-area: work;
 }
 
 .skills {
